@@ -1,8 +1,8 @@
 {
   "name": "XMCategorys",
   "version": "0.1.0",
-  "summary": "A short description of XMCategorys.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "XMCategorys.",
+  "description": "一款分类软件很好用，nice",
   "homepage": "https://github.com/zhangxieomeng1/XMCategorys",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
     "zhangxieomeng1": "zhangxiaomeng@xiangshang360.com"
   },
   "source": {
-    "git": "https://github.com/zhangxieomeng1/XMCategorys.git",
+    "git": "https://github.com/zhangxiaomeng1/XMCategorys",
     "tag": "0.1.0"
   },
   "platforms": {
