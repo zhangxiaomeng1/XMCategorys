@@ -1,6 +1,6 @@
 {
   "name": "XMCategorys",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "XMCategorys.",
   "description": "一款分类软件很好用，nice",
   "homepage": "https://github.com/zhangxieomeng1/XMCategorys",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhangxiaomeng1/XMCategorys",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"

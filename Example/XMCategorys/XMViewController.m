@@ -7,7 +7,7 @@
 //
 
 #import "XMViewController.h"
-
+#import "XMCategorys.h"
 @interface XMViewController ()
 
 @end
