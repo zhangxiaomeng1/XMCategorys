@@ -1,0 +1,6 @@
+framework module XMCategorys {
+  umbrella header "XMCategorys-umbrella.h"
+
+  export *
+  module * { export * }
+}

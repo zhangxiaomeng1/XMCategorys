@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XMCategorys'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XMCategorys.'
+  s.summary          = 'XMCategorys.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '一款分类软件很好用，nice'
 
   s.homepage         = 'https://github.com/zhangxieomeng1/XMCategorys'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangxieomeng1' => 'zhangxiaomeng@xiangshang360.com' }
-  s.source           = { :git => 'https://github.com/zhangxieomeng1/XMCategorys.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangxiaomeng1/XMCategorys', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
