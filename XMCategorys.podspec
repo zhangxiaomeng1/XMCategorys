@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XMCategorys'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'XMCategorys.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '一款分类软件很好用，nice'
+  s.description      = '一款分类软件很好用，宏定义'
 
   s.homepage         = 'https://github.com/zhangxieomeng1/XMCategorys'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
