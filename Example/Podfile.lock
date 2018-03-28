@@ -1,5 +1,5 @@
 PODS:
-  - XMCategorys (1.1.1)
+  - XMCategorys (1.1.2)
 
 DEPENDENCIES:
   - XMCategorys (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XMCategorys: d4cc2596bca4989e90cfff156e833c91add53ce7
+  XMCategorys: 16178b4f699aa5f756bfe35aea87a6c920d3a6d9
 
 PODFILE CHECKSUM: b6a2e5fc8cce533717238a4de06a2cffeb9c93a9
 

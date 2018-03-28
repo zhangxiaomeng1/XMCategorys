@@ -8,6 +8,18 @@
 #ifndef XMCategorys_h
 #define XMCategorys_h
 
+//自定义log日志输出
+#ifdef DEBUG
+#define QXMLog(fmt, ...)             NSLog((@"%s\n===   " fmt), __FUNCTION__, ##__VA_ARGS__);
+#define QXMNSLog(fmt, ...)           NSLog((fmt), ##__VA_ARGS__);
+#define CKLog(FORMAT, ...)           fprintf(stderr,"%s:%d | \%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+#define QXMLog(...);
+#define QXMNSLog(fmt, ...)
+#define CKLog(FORMAT, ...) nil
+#endif
+
 #import "NSArray+Log.h"//打印
 #import "NSObject+CHAddition.h"//验证手机号
 #import "NSObject+runtime.h"
